@@ -1,0 +1,2 @@
+execute as @a[tag=gyanburu,tag=player] at @s run scoreboard players set @s loop 4
+give @a[tag=gyanburu,tag=player] written_book[written_book_content={title:"ギャンブラー指南書",author:"カイジ",pages:['{"text":"ギャンブラーについて\\n\\n・運が良ければ勝てる\\n・暗殺のスキルは暗殺者に\\n　は効かないので注意"}']}]

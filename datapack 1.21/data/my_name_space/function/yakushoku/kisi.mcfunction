@@ -1,0 +1,7 @@
+execute as @a[tag=kisi,tag=player] at @s run give @s iron_boots[minecraft:unbreakable={}]
+execute as @a[tag=kisi,tag=player] at @s run give @s iron_chestplate[minecraft:unbreakable={}]
+execute as @a[tag=kisi,tag=player] at @s run give @s iron_helmet[minecraft:unbreakable={}]
+execute as @a[tag=kisi,tag=player] at @s run give @s iron_leggings[minecraft:unbreakable={}]
+execute as @a[tag=kisi,tag=player] at @s run give @s shield[minecraft:unbreakable={}]
+give @a[tag=kisi,tag=player] minecraft:carrot_on_a_stick[minecraft:custom_model_data=2,minecraft:item_name='{"text":"封雷剣"}',minecraft:attribute_modifiers=[{id:"attack",type:"minecraft:generic.attack_damage",amount:7,operation:"add_value",slot:"mainhand"}]]
+give @a[tag=kisi,tag=player] written_book[written_book_content={title:"騎士指南書",author:"カイ＝キスク",pages:['{"text":"騎士について\\n\\n・耐久値が壊れない鉄防具\\n　一式と盾を付与\\n封雷剣について\\n・攻撃力7\\n・15秒のクールタイムがあ\\n　るが自分の向いている方\\n　向に２０マス雷を召喚す\\n　る\\n・3秒間しゃがんだ後その\\n　状態を保ちつつ雷を召喚\\n　すると雷がかなり強くな\\n　る"}']}]

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {}
+      }
+    }
+  },
+  "rewards": {
+    "function": "my_name_space:ningyouclear"
+  }
+}

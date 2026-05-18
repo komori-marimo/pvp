@@ -1,0 +1,1 @@
+advancement revoke @s only my_name_space:ningyou

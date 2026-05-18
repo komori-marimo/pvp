@@ -1,0 +1,3 @@
+give @a[tag=encha] grindstone
+execute as @a[tag=encha,tag=player] at @s run give @s minecraft:carrot_on_a_stick[minecraft:custom_model_data=8,minecraft:item_name='{"text":"エンチャント"}']
+give @a[tag=encha,tag=player] written_book[written_book_content={title:"聖職者指南書",author:"村人",pages:['{"text":"聖職者について\\n\\n・エンチャントの仕方はオ\\n　フハンドにエンチャント\\n　したい装備もしくは武器\\n　をもち「エンチャント」\\n　と名前の付いた人参棒を\\n　使用する\\n・重ねてエンチャントして\\n　もかまわないが一度つい\\n　エンチャンはそれ以上\\n　強くならないため注意\\n例)耐久1が付いた場合いくら厳選しても耐久3は付かない"}']}]
